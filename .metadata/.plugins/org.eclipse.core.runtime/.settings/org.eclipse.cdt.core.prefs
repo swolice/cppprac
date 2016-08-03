@@ -1,0 +1,2 @@
+eclipse.preferences.version=1
+macros/workspace=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?>\n<macros>\n<stringMacro name\="C_INCLUDE_PATH" type\="VALUE_TEXT" value\="/usr/include"/>\n<stringMacro name\="CPLUSPLUS_INCLUDE_PATH" type\="VALUE_TEXT" value\="/usr/include/c++/4.8.5/"/>\n</macros>\n

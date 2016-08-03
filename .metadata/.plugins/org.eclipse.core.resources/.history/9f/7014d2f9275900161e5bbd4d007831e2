@@ -1,0 +1,46 @@
+//============================================================================
+// Name        : practice.cpp
+// Author      : swolice
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+using namespace std;
+
+void test_bool()
+{
+	int a;
+	bool b = true;
+	cout << "b=" << b << endl << "sizeof(b)=" << sizeof(b) << endl;
+
+	b = 3;
+	a = b;
+	cout << "a=" << a << endl << "b=" << b << endl;
+
+	a = 10;
+	b = a;
+	cout << "a=" << a << endl << "b=" << b << endl;
+
+	b = 0;
+	cout << "b=" << b << endl;
+
+	b++;
+	cout<<"b="<<b<<endl;
+	b=b+1;
+	cout<<"b="<<b<<endl;
+
+}
+
+
+
+int main() {
+
+	test_bool();
+
+
+
+
+	return 0;
+}
